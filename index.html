@@ -88,6 +88,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
   
 <!--  loading bar  -->
+  <script>
 //<![CDATA[
 var Nanobar = function () {
 var c, d, e, f, g, h, k = { width: "100%", height: "3.5px", zIndex: 9999, top: "0" }, l = { width: 0, height: "100%", clear: "both", transition: "height .3s" }; c = function (a, b) { for (var c in b) a.style[c] = b[c]; a.style["float"] = "left" }; f = function () { var a = this, b = this.width - this.here; 0.1 > b && -0.1 < b ? (g.call(this, this.here), this.moving = !1, 100 == this.width && (this.el.style.height = 0, setTimeout(function () { a.cont.el.removeChild(a.el) }, 100))) : (g.call(this, this.width - b / 4), setTimeout(function () { a.go() }, 16)) }; g = function (a) {
@@ -99,7 +100,7 @@ k); a.id && (b.id = a.id); b.style.position = a.target ? "relative" : "fixed"; a
 }; e.prototype.go = function (a) { this.bars[0].go(a); 100 == a && h.call(this) }; return e
 }();
 var nanobar = new Nanobar(); nanobar.go(30); nanobar.go(60); nanobar.go(100);
-//]]>
+    //]]></script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
