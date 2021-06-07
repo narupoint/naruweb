@@ -19,6 +19,17 @@
 }
 
 
+/* testimonial */
+.testimonial {
+    margin-top: 120px;
+
+} 
+.testimonial h5 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 32px;
+}
 
 
 
@@ -82,6 +93,10 @@
 
 }
 
+.logo img {
+    width:301px !important;
+}
+
 /* desktop ver */
 @media (min-width: 992px) {
     .nav-link {
@@ -119,6 +134,10 @@
 
  .jumbotron::after {
      height: 610px !important;
+ }
+
+ .logo img {
+     width: 760px !important;
  }
    
 }
