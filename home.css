@@ -1,0 +1,126 @@
+/* navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: viga;
+    font-size: 32px;
+}
+
+/* utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 37px;
+    background-color: #00cf30;
+    color: white;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.322);
+    position: relative;
+}
+
+
+
+
+
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(https://1.bp.blogspot.com/-V7nFG86w7Ds/XyeQysAMXaI/AAAAAAAAG7Q/J3Pj0RObjms7WorkbrQBGWY5-2Rc49OBwCLcBGAsYHQ/s1920/hijau-pupus.jpg);
+    background-size: cover;
+    height: 490px;
+    text-align: center;
+    
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-family: viga;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px; font-size: 40px;
+}
+
+/* info panel */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0,0,0, 0.5);
+    border-radius: 12px;
+    background-color: #fff;
+    margin-top: -100px;
+    padding: 20px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p {
+    font-size: 14px;
+    color: #a0a0a0;
+    margin-top: -5px;
+    font-weight: 200;
+}
+
+/* work space */
+.logo {
+    margin-top: 120px;
+
+}
+
+/* desktop ver */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #00cf30;
+        width: 55% !important;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 680px;
+    }
+ .jumbotron .display-4 {
+     font-size: 62px;
+ }
+
+ .jumbotron::after {
+     height: 610px !important;
+ }
+   
+}
+
+
